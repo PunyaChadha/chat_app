@@ -5,7 +5,6 @@ import { useFetchRecipientUser } from "../../hooks/useFetchRecipient";
 import {Form, Stack} from "react-bootstrap"
 import InputEmoji from "react-input-emoji";
 import moment from "moment"
-import { Scrollbars } from 'react-custom-scrollbars';
 
 const ChatBox = () => {
     const {user} = useContext(AuthContext);
